@@ -118,7 +118,8 @@ ul li a:hover{
 
 .contact .content{
   max-width: 800px;
-  text-align: center;
+  text-align: 
+  left;
 }
 
 .contact .content h2{
@@ -198,11 +199,19 @@ ul li a:hover{
 
 
 @media (width < 750px){
+  .contact{
+    text-align: left;
+    text-wrap:wrap;
+  }
   .container{
     flex-direction: column;
   }
   .container .contactInfo{
     margin-bottom: 40px;
+  }
+  .container .contactInfo .box .text{
+    text-align: left;
+    text-wrap: wrap;
   }
   .container .contactInfo,.contactForm{
     width:100%;
