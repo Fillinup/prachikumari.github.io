@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root{
-    --primary-color: #de58e2;
-    --primary-color-dark: #cc33c4;
+    --primary-color: #d258e2;
+    --primary-color-dark: #ba33cc;
     --secondary-color: #c969e0;
     --text-dark: #1f2937;
     --text-light: #6b7280;
@@ -130,6 +130,7 @@ ul li a:hover{
     line-height: 3rem;
     color: var(--text-dark);
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .title span{

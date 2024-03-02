@@ -4,13 +4,14 @@
 
 
 :root{
-    --primary-color: #de58e2;
-    --max-width: 1200px;
-    --primary-color-dark: #cc33c4;
+    --primary-color: #d258e2;
+    --primary-color-dark: #ba33cc;
     --secondary-color: #c969e0;
     --text-dark: #1f2937;
     --text-light: #6b7280;
     --extra-light: #faf5ff;
+    --max-width: 1200px;
+
 }
 
 *{
@@ -86,7 +87,7 @@ ul li a{
     text-decoration: none;
     font-weight: 600;
     color: var(--text-dark);
-    transition: .3s;
+    transition: 0.3s;
 
 }
 
@@ -105,7 +106,7 @@ ul li a:hover{
 }
 
 .masthead {
-  padding: 6em 0;
+  padding: 6em 5em;
   background-size: cover;
   background-repeat: no-repeat;
   border-top: solid 1em #d26ae7;
@@ -122,7 +123,7 @@ ul li a:hover{
 .masthead-heading {
     /* Layout Declarations */
     color: #ac39bb;
-    margin-top: -0.2em;
+    margin-top: 0.2em;
     /* Typography Declarations */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
@@ -169,7 +170,6 @@ section > h1 {
 }
 
 .masthead {
-  padding: 6em 0;
   background-image: url('assets/back1.jpg');
   background-size:cover;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ section > h1 {
 }
 
 .masthead-heading {
-  margin-top: -0.2em;
+  margin-top: 0.2em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 6em;
@@ -245,16 +245,11 @@ a {
 }
 
 
-@media only screen and (max-width: 700px) {
-    .masthead {
-        padding: 3em 0;
-    }
-    .masthead-heading {
-        font-size: 3em;
-    }
+@media (width < 750px) {
     .content-footer {
         padding: 2em 2.5em;
     }
+
     nav .checkbox{
         display: block;
     }
