@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-  --primary-color: #d258e2;
-  --primary-color-dark: #ba33cc;
-  --secondary-color: #c969e0;
+  --primary-color: #7e268a;
+  --primary-color-dark: #9f0fb3;
+  --secondary-color: #ae30ce;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --extra-light: #faf5ff;
@@ -104,9 +104,10 @@ ul li a:hover{
 
 
 .contact{
+  align-items: normal;
   position: relative;
   min-height: 100vh;
-  padding: 50px 100px;
+  padding: 50px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +181,7 @@ ul li a:hover{
 .contactForm{
   width: 40%;
   padding: 40px;
-  background: #c45ed8;
+  background: #9030a3;
 }
 
 .contactForm h2{

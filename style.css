@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root{
-    --primary-color: #d258e2;
-    --primary-color-dark: #ba33cc;
-    --secondary-color: #c969e0;
+    --primary-color: #7e268a;
+    --primary-color-dark: #9f0fb3;
+    --secondary-color: #ae30ce;
     --text-dark: #1f2937;
     --text-light: #6b7280;
     --extra-light: #faf5ff;
     --max-width: 1200px;
-
+  
 }
 
 *{
